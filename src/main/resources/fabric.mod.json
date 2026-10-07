@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnerbeacon",
+  "version": "${version}",
+  "name": "SpawnerBeacon",
+  "description": "Client-side spawner beams with a Cherry Blossom configuration UI.",
+  "authors": ["SpawnerBeacon"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.spawnerbeacon.SpawnerBeaconClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
